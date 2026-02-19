@@ -1,0 +1,74 @@
+/* Reset básico */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.2em;
+    color: #222;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    color: #555;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+    .galeria-grid img {
+        width: 180px;
+        border-radius: 10px;
+        border: 2px solid #888;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .galeria-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+.vcards-list {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+
+    .vcards-list li {
+        margin: 8px 0;
+        font-size: 1.1em;
+    }
+
+    .vcards-list a {
+        text-decoration: none;
+        color: #0077cc;
+        transition: color 0.2s;
+    }
+
+        .vcards-list a:hover {
+            color: #005fa3;
+        }
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}

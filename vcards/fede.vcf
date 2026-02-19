@@ -1,0 +1,28 @@
+﻿BEGIN:VCARD
+VERSION:3.0
+
+FN:Federico Bro
+N:Bro;Federico;;;
+
+TITLE:Software Architect
+ORG:BroTech Solutions
+
+TEL;TYPE=CELL,VOICE:+5215555555555
+TEL;TYPE=WORK,VOICE:+5215550000000
+
+EMAIL;TYPE=WORK:fede@brotech.com
+EMAIL;TYPE=INTERNET:contacto@brotech.com
+
+ADR;TYPE=WORK:;;Av. Reforma 123;CDMX;CDMX;06000;Mexico
+
+URL:https://brotech.com
+URL;TYPE=LinkedIn:https://linkedin.com/in/federicobro
+URL;TYPE=GitHub:https://github.com/federicobro
+
+BDAY:19730101
+
+NOTE:Contacto empresarial oficial Bro 🔥
+
+PHOTO;VALUE=URI:https://tu-sitio.onrender.com/fotos/fede.jpg
+
+END:VCARD
