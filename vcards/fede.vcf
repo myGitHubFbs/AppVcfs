@@ -1,11 +1,11 @@
 BEGIN:VCARD
 VERSION:4.0
-N:Lopez;Federico;;;
-FN:Federico Lopez
-ORG:Empresa Demo SA
-TITLE:Director
-TEL;TYPE=cell:+5215512345678
-EMAIL:fede@demo.com
-URL:https://demo.com
+N:Bautiusta;Federico;;;
+FN:Federico Bautista
+ORG:Gobierno del Estado de Chihuahua
+TITLE:Asesor Técnico
+TEL;TYPE=cell:+526141234567
+EMAIL:fbautista@chihhuahua.gob.mx
+URL:https://chihuahua.gob.mx
 PHOTO:http://10.18.243.166/sirhpgo/img/cuco.jpg
 END:VCARD
