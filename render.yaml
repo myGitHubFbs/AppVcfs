@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: appvcfs
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /vcards/*.vcf
+        headers:
+          - key: Content-Type
+            value: text/vcard
