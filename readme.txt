@@ -1,3 +1,6 @@
+--Cuando se crea el proyecto a pie sin ninguna herramienta
+git config --global --add safe.directory C:/Fede/Proyectos/AppVcfs
+
 https://github.com/myGitHubFbs/AppVcfs.git
 
 …or create a new repository on the command line
@@ -13,3 +16,8 @@ git push -u origin main
 git remote add origin https://github.com/myGitHubFbs/AppVcfs.git
 git branch -M main
 git push -u origin main
+
+--Cambios
+git add .
+git commit -m "Descripción del cambio"
+git push
