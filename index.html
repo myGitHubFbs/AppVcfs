@@ -23,10 +23,8 @@
     <section>
         <h2>Contactos (.vcf)</h2>
         <ul class="vcards-list">
-            <!--<li><a href="vcards/fede.vcf" download>Fede Bro</a></li>
-            <li><a href="vcards/contacto2.vcf" download>Contacto Extra</a></li> -->
-
-            <button onclick="downloadVCF()">Agregar contacto</button>
+            <li><a href="vcards/fede.vcf" download>Fede Bro</a></li>
+            <li><a href="vcards/contacto2.vcf" download>Contacto Extra</a></li>
         </ul>
     </section>
 
@@ -35,17 +33,3 @@
     </footer>
 </body>
 </html>
-
-<script>function downloadVCF() {
-  const vcard = `BEGIN:VCARD
-VERSION:3.0
-FN:Federico Bautista
-TEL:5512345678
-EMAIL:correo@ejemplo.com
-END:VCARD`;
-
-  const blob = new Blob([vcard], { type: "text/vcard" });
-  const url = window.URL.createObjectURL(blob);
-
-  window.location.href = url;
-}</script>
