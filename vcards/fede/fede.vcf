@@ -6,6 +6,8 @@ ORG:Gobierno del Estado de Chihuahua
 TITLE:Asesor Técnico
 TEL;TYPE=cell:+526141234567
 EMAIL:fbautista@chihhuahua.gob.mx
+ADR;TYPE=WORK:;;Av. Principal 123;Ciudad;Estado;CP;México
 URL:https://chihuahua.gob.mx
 PHOTO:http://10.18.243.166/sirhpgo/img/cuco.jpg
+NOTE:Tarjeta NFC de demo
 END:VCARD
